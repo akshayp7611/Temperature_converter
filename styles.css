@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    min-height: 50%;
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px lightgray;
+    background-color: gray;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-between;
+    gap: 10px;
+}
+
+#btn-convert {
+    background-color: #7071E8;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+#btn-convert:hover {
+    cursor: pointer;
+}
+
+#btn-convert:focus {
+    outline: none;
+}
+
+.temp-menu, .main-input {
+    height: 30px;
+    padding: 5px;
+}
+
+.main-label {
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+#title {
+    text-align: center;
+    letter-spacing: 1.5px;
+}
